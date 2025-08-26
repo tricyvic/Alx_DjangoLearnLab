@@ -1,1 +1,1 @@
-b1.delete()
+book.delete()
