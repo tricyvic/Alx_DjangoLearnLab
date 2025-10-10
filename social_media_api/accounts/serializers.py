@@ -64,5 +64,8 @@ class ProfileSerializer(serializers.ModelSerializer):
 
     def get_following(self, obj):
         return [followed.username for followed in obj.following.all()]
+    
+
+# ["from rest_framework.authtoken.models import Token", "Token.objects.create", "get_user_model().objects.create_user"]
 
 
