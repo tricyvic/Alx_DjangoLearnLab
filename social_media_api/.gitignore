@@ -1,4 +1,0 @@
-venv/
-*pycache*/
-db.sqlite3
-profile_pictures/*
